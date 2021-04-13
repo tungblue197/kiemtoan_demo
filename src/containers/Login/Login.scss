@@ -1,0 +1,56 @@
+.wrapper{
+    &::before{
+        content: '';
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(https://toplinemanagement.com/wp-content/uploads/2017/01/top-line-management-login-background-1.jpg);
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+    }
+    .form-signin{
+        background-color: #337ab7;
+        width: 100%;
+        max-width: 300px;
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        border-radius: 6px;
+        color: #fff;
+        input{
+            border: none;
+            outline: none;
+            padding: 8px 12px;
+            margin: 8px 0px;
+        }
+        .form-signin-heading{
+            font-size: 30px;
+            text-align: center;
+        }
+        label{
+            font-size: 14px;
+            font-weight: 500;
+        }
+        button{
+            border-radius: 6px;
+            padding: 8px 0px;
+            color: #fff;
+            background-color: #337ab7;
+            border: 2px solid #fff;
+            border-radius: 4px;
+            margin-top: 12px;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s;
+            &:hover{
+                background-color: #fff;
+                color: #666;
+            }
+        }
+    }
+}

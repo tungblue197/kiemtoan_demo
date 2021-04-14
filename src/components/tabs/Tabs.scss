@@ -1,0 +1,16 @@
+.tabs{
+    
+    .tab-header{
+        button{
+            border: none;
+            outline: none;
+            padding: 8px 12px;
+            color: #fff;
+            background-color:#343a40;
+            cursor: pointer;
+        }
+    }
+    .tab-body{
+        border: 1px solid #b7b7b7;
+    }
+}

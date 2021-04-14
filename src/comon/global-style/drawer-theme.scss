@@ -166,7 +166,7 @@ html, body{
                 &:hover{
                     background-color: $sideBarHoverColor;
                 }
-                margin: 0px 4px;
+                margin: 4px 4px;
             }
         }
         .page-header{
@@ -205,6 +205,24 @@ html, body{
                         background-color: $sideBarHoverColor;
                     }
                 }
+            }
+        }
+    }
+}
+
+td.dx-cell-focus-disabled.dx-master-detail-cell{
+    padding:6px !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .app-container{
+        .page-header{
+            flex-wrap: wrap;
+            justify-content:center;
+            .page-header-title{
+                width: 100%;
+                margin-bottom: 12px;
+                text-align: center;
             }
         }
     }
